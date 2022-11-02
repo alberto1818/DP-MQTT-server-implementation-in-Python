@@ -14,4 +14,4 @@ python, paho
 
 ## Design Patterns
 
-no idea
+Adapter, Observer, Factory Method
