@@ -4,32 +4,32 @@
 
 Publish / Subscribe model communication between broker and one or more clients where a message **published** to a certain _topic_ will be delivered to every client that is **subscribed** to that _topic_
 
-The actions which are used in the MQTT protocol are publishing and subscribing of messages. It is the main core of the our broker.  Server is responsible for receiving messages from IoT devices and sending them back to the message subscribers. The system we gonna build gonna  inherit Netty's easy-to-use, simple, high-performative and safe features, as well as fast development. 
- We are going to provide real-time and reliable messaging by our service to other devices, while only trying  to minimise code and bandwidth. It is suitable for devices with limited hardware resources and the network environment with limited bandwidth. 
-
+The actions which are used in the MQTT protocol are publishing and subscribing of messages. It is the main core of the our broker. Server is responsible for receiving messages from IoT devices and sending them back to the message subscribers. The system we gonna build gonna inherit Netty's easy-to-use, simple, high-performative and safe features, as well as fast development.
+We are going to provide real-time and reliable messaging by our service to other devices, while only trying to minimise code and bandwidth. It is suitable for devices with limited hardware resources and the network environment with limited bandwidth.
 
 ## Requirements
+
 Install MQTT client library for Python.
 This code provides a class that gives access to connect to the mqtt broker to publish messages and to subscribe to topics and receive published messages.
-To prepare and use this in Python environment, install the Paho MQTT client. To do so, use the Python package tool. Check out this reference for more information. 
-
-
+To prepare and use this in Python environment, install the Paho MQTT client. To do so, use the Python package tool. Check out this reference for more information.
 
 ```
 pip install paho-mqtt
 ```
 
-
-
-
-
 ## Implementation
 
-Python, paho
+We chose _python_ to implement our MQTT server as we wanted to use **paho** module.
+
+One machine will act as a MQTT broker in a network, where all machines are connected to. MQTT clients will be given.
+
+We need to install **paho** module
 
 ## Architecture
 
 python, paho
+
+["arch"](imgs/arch.png)
 
 ## Design Patterns
 
