@@ -22,10 +22,14 @@ pip install paho-mqtt
 
 We chose _python_  as our primary language, because it provides and gives us access to a lot of excellent MQTT client libraries to implement, as we wanted to use **paho** module. These clients allow us to develop an MQTT client application with very little code.
 
+
 The goals we gonna try to achieve by implemeting in Pythons are: 
-1)One machine will act as a MQTT broker in a network, where all machines are connected to. 
-2)We plan to analyse the received topic and extract the device, device command, and command value .
-3)Check if the command is valid and execute that command, and after that update the status and send a response to other clients.
+
+1. One machine will act as a MQTT broker in a network, where all machines are connected to. 
+
+2. We plan to analyse the received topic and extract the device, device command, and command value .
+
+3. Check if the command is valid and execute that command, and after that update the status and send a response to other clients.
 
 ## Architecture
 
