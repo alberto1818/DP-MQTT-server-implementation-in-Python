@@ -39,4 +39,6 @@ python, paho
 
 ## Design Patterns
 
-Adapter, Observer, Factory Method
+Adapter - We want to make messages going through incompatible interfaces with one another.
+Observer - As subriber, we will be watching over incoming messages to catch them and check.
+Factory Method - Building main interfaces, handler and client will be created by Factory Method Pattern.
