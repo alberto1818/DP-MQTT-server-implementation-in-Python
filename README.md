@@ -36,7 +36,7 @@ The goals we gonna try to achieve by implemeting in Pythons are:
 python, paho
 
 !["arch"](imgs/arch.png)
-(imgs/Broadcaster.png)
+!["Broadcaster"](imgs/Broadcaster.png)
 
 ## Design Patterns
 
