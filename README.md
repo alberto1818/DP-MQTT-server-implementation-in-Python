@@ -4,6 +4,12 @@
 
 Publish / Subscribe model communication between broker and one or more clients where a message **published** to a certain _topic_ will be delivered to every client that is **subscribed** to that _topic_
 
+## Requirements
+
+```
+pip install paho-mqtt
+```
+
 ## Implementation
 
 Python, paho
