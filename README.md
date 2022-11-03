@@ -11,7 +11,7 @@ Publish / Subscribe model communication between broker and one or more clients w
 ## Requirements
 
 Install MQTT client library for Python.
-This code provides a class that gives access to connect to the mqtt broker to publish messages and to subscribe to topics and receive published messages.
+This code provides a class that gives access to connect to the MQTT broker to publish messages and to subscribe to topics and receive published messages.
 To prepare and use this in Python environment, install the Paho MQTT client. To do so, use the Python package tool. Check out this reference for more information.
 
 ```
@@ -41,5 +41,4 @@ python, paho
 
 **Adapter** - We want to make messages going through incompatible interfaces with one another.
 **Observer** - As subriber, we will be watching over incoming messages to catch them and check.
-**Factory Method** - Building main interfaces, handler and client will be created by Factory Method Pattern./n
-Using proper design patterns, will allow us to create MQTT server faster, by easily writing code.
+**Factory Method** - Building main interfaces, handler and client will be created by Factory Method Pattern.
