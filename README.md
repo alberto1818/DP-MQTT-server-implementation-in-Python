@@ -39,6 +39,7 @@ python, paho
 
 ## Design Patterns
 
-Adapter - We want to make messages going through incompatible interfaces with one another.
-Observer - As subriber, we will be watching over incoming messages to catch them and check.
-Factory Method - Building main interfaces, handler and client will be created by Factory Method Pattern.
+**Adapter** - We want to make messages going through incompatible interfaces with one another.
+**Observer** - As subriber, we will be watching over incoming messages to catch them and check.
+**Factory Method** - Building main interfaces, handler and client will be created by Factory Method Pattern./n
+Using proper design patterns, will allow us to create MQTT server faster, by easily writing code.
