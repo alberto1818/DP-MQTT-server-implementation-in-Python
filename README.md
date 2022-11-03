@@ -9,10 +9,19 @@ The actions which are used in the MQTT protocol are publishing and subscribing o
 
 
 ## Requirements
+Install MQTT client library for Python.
+This code provides a class that gives access to connect to the mqtt broker to publish messages and to subscribe to topics and receive published messages.
+To prepare and use this in Python environment, install the Paho MQTT client. To do so, use the Python package tool. Check out this reference for more information. 
+
+
 
 ```
 pip install paho-mqtt
 ```
+
+
+
+
 
 ## Implementation
 
